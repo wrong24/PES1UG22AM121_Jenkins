@@ -16,7 +16,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh 'g++ main.cpp -o YOUR_SRN-1'
+                    sh 'g++ main.cpp -o pes1ug22am121-1'
                 }
             }
         }
@@ -24,7 +24,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    sh './YOUR_SRN-1'
+                    sh './pes1ug22am121-1'
                 }
             }
         }
