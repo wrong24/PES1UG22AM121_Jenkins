@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        FILE_NAME = 'hello.cpp'
+        FILE_NAME = 'main.cpp'
         BUILD_NAME = 'pes1ug22am121-1'
     }
 
