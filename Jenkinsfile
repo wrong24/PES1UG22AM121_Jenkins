@@ -4,7 +4,7 @@ pipeline {
     environment {
         FILE_NAME = 'main.cpp'
         BUILD_NAME = 'pes1ug22am121-1'
-
+    }
 
     stages {
         stage('Build') {
