@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                script {
+                scriptsss {
                     sh 'g++ ${FILE_NAME} -o ${BUILD_NAME}'
                 }
             }
