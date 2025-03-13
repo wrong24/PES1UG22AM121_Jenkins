@@ -2,6 +2,6 @@
 using namespace std;
 
 int main() {
-    cout << "Hello from C++, this is Task 5" << endl;
+    cout << "Pipeline execution successful!" << endl;
     return 0;
 }
